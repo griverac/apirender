@@ -1,5 +1,5 @@
 // controllers/librosController.js
-const { Libro } = require('../models/libro');
+const Libro = require('../models/libro');
 
 // Obtener todos los libros
 const obtenerLibros = async (req, res) => {
